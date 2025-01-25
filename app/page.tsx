@@ -6,10 +6,7 @@ import { Portfolio } from "@/components/Portfolio";
 import { KeyMetrics } from "@/components/KeyMetrics";
 import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
-import { TestimonialsSection } from "@/components/Testimonials";
-import { BlogPage } from "@/components/articles";
 import Resume from "@/components/Resume";
-import Contact1 from "@/components/Contact1";
 
 
 

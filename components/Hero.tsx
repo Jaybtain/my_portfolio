@@ -11,7 +11,8 @@ const COLORS_TOP = ["#12FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
 export const Hero = () => {
   const [activeIcon, setActiveIcon] = useState("github"); // Controls which icon is animating
-  const [isHovered, setIsHovered] = useState(null); // Tracks hovered icon
+  const [isHovered, setIsHovered] = useState<"github" | "bitbucket" | "linkedin" | null>(null);
+
 
   const color = useMotionValue(COLORS_TOP[0]);
 
@@ -23,7 +24,7 @@ export const Hero = () => {
       repeat: Infinity,
       repeatType: "mirror",
     });
-  }, []);
+  }, [color]);
 
   const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #000 50%, ${color})`;
   const border = useMotionTemplate`1px solid ${color}`;

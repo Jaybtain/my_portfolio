@@ -31,17 +31,8 @@ const skills = [
   },
 ];
 
-const education = {
-  degree: "Computer Science Graduate",
-  additionalInfo: "Currently pursuing a course in programming.",
-};
 
-const hobbies = [
-  "Coding and learning new technologies",
-  "Reading books, especially on programming and software development",
-  "Hiking and outdoor activities",
-  "Playing video games",
-];
+
 
 export const KeyMetrics = () => {
   const ref = React.useRef<HTMLElement>(null);

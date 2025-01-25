@@ -46,35 +46,32 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "More than 7 Yeras of experience.",
   items: [
     {
       company: "Brits Pharmaceuticals.",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
+      duration: "2019 - 2023",
     },
+    
     {
       company: "Glodavour Gas Limited",
       position: "Back End Developer",
-      duration: "Summer 2021",
+      duration: "2019 - 2023",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "pigu.lt",
+      position: "Php Intern/Php developer",
+      duration: "2024 - Present",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
+      company: "Spec Health Pharmacy",
+      position: "IT Consultant",
       duration: "2019 - 2020",
     },
+   
     {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
+      company: "Heptapixels",
       position: "Junior Developer",
       duration: "2017 - 2018",
     },
@@ -88,6 +85,16 @@ const education = {
   description:
     "Computer Science Graduate. Currently pursuing a course in programming.",
   items: [
+    {
+      institution: "University of Uyo, Nigeria",
+      degree: "Barchelor's Degree in Computer Science",
+      duration: "2013 - 2019",
+    },
+    {
+      institution: "SMK, Vilnius, Lithuania",
+      degree: "Barchelor's Degree in Programming and multimedia",
+      duration: "2023 - present",
+    },
     {
       institution: "Online Course Platform",
       degree: "Full Stack Web Development Bootcamp",
@@ -103,21 +110,8 @@ const education = {
       degree: "Programming Course",
       duration: "2020 - 2021",
     },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
+  
+    
   ],
 };
 

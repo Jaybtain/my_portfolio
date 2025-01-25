@@ -38,15 +38,15 @@ export const Contact = () => {
                         className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2"
                         >
                             +370 617 03191
-                            <span className="text-gray-500">/</span>
+                            <span className="text-gray-500"></span>
                         </a>
                         </div>
                         <div className="space-y-2">
                             <p className="text-lg text-gray-300">Email</p>
                             <a href="mailto:johnjonah0866@gmail.com"
-                             className="text-3xl lg:text-4xl font-semibold hover:text-purple-400 transition duration-300 flex items-center">
+                             className="text-3xl lg:text-3xl font-semibold hover:text-purple-400 transition duration-300 flex items-center">
                                 johnjonah0866@gmail.com
-                                <span className="text-gray-500">/</span>
+                                <span className="text-gray-500"></span>
                             </a>
 
                         </div>

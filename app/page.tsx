@@ -30,11 +30,11 @@ export default function Home() {
       
       
       <Services/>
-      <BlogPage/>
+      
       <Contact/>
       
       
-      <Contact1/>
+     
       
       
       

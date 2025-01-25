@@ -20,15 +20,10 @@ export default function Home() {
       <Stack/>
       <LogoAnimation/>
       <KeyMetrics/>
-     
       <Resume/>
-      
       <Portfolio/>
-      
-      
       <Services/>
-      
-      <Contact/>
+     <Contact/>
       
       
      

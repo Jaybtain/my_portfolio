@@ -41,7 +41,7 @@ export const Hero = () => {
       index = (index + 1) % icons.length;
     }, 1000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval); 
   }, [isHovered]);
 
   // Animation variants for the icons
@@ -87,7 +87,7 @@ export const Hero = () => {
         <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-4 mb-4">
           {/* GitHub Icon */}
           <motion.a
-            href="https://github.com/yourusername"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             variants={iconVariants}
@@ -101,7 +101,7 @@ export const Hero = () => {
 
           {/* Bitbucket Icon */}
           <motion.a
-            href="https://bitbucket.org/yourusername"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             variants={iconVariants}
@@ -115,7 +115,7 @@ export const Hero = () => {
 
           {/* LinkedIn Icon */}
           <motion.a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/john-jonah-579793128"
             target="_blank"
             rel="noopener noreferrer"
             variants={iconVariants}

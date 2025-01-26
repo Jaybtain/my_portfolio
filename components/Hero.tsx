@@ -132,7 +132,9 @@ export const Hero = () => {
           Full-Stack Developer | Crafting Scalable Solutions with 3+ Years of Experience | Based in Vilnius
         </p>
 
-        <motion.button
+        <motion.a
+            href="/JOHN_JONAH_CV.pdf" // Adjusted path
+            download="John_Jonah_CV.pdf" // Suggested file name
           style={{
             border,
             boxShadow,
@@ -147,7 +149,7 @@ export const Hero = () => {
         >
           Download CV
           <FiArrowRight />
-        </motion.button>
+        </motion.a>
       </div>
 
       <div className="bg-circle-container">

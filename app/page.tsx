@@ -6,6 +6,7 @@ import { Portfolio } from "@/components/Portfolio";
 import { KeyMetrics } from "@/components/KeyMetrics";
 import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
+import Chatbot from "@/components/Chatbot";
 import Resume from "@/components/Resume";
 
 
@@ -24,11 +25,7 @@ export default function Home() {
       <Portfolio/>
       <Services/>
      <Contact/>
-      
-      
-     
-      
-      
+     <Chatbot/>
       
      
    </>

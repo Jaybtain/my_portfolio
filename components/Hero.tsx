@@ -133,8 +133,8 @@ export const Hero = () => {
         </p>
 
         <motion.a
-            href="/JOHN_JONAH_CV.pdf" // Adjusted path
-            download="John_Jonah_CV.pdf" // Suggested file name
+            href="/JOHN_JONAH_CV.pdf" 
+            download="John_Jonah_CV.pdf" 
           style={{
             border,
             boxShadow,
